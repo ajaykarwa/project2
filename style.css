@@ -1,0 +1,157 @@
+/*Defaults*/
+
+* {
+    font-family: 'Crimson Text', serif;
+}
+
+h2 {
+    font-size:32px;
+    color: #555b6e;
+}
+h4 {
+    font-size: 30px;
+    color: #555b6e;
+}
+
+p {
+    font-size: 18px;
+    color: #111111;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.jumbotron {
+    /* The image used */
+    background-image: url("../assets/templepano.jpg");
+    height: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Place text towards the left in the image */
+.jumbotron-text {
+    color: #3AADA7;
+    text-shadow: 1px 1px 2px #111111;
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    font-weight: bold;
+}
+
+.jumbotron-text h1{
+    font-weight: bold;
+}
+.jumbotron-text h2{
+    color: #faf9f9;
+    text-shadow: 1px 1px 2px #111111;
+    font-weight: bold;
+}
+
+/* Make navbar transparent to allow hero image to fill in the background*/
+.navbar-inverse {
+    background-color: #243651;
+    border: 0px;
+}
+
+/*Apply custom font styling to navbar*/
+.nav.navbar-nav li a{
+    color: #faf9f9;
+    font-size: 18px;
+}
+
+.ul.dropdown-menu {
+    color: #111111;
+}
+
+/*Formatting for marketing boxes - 3 main calls to action*/
+#marketing {
+    padding: 40px;
+}
+
+/*
+#marketing p {
+    font-size: 18px;
+}*/
+
+#marketing img{
+    border-radius: 5px;
+}
+
+#marketing button{
+    width:100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #89b0ae;
+    color:white;
+}
+
+#hiddendonatebutton{
+    background-color: #89b0ae;
+}
+
+#hiddendonatebutton:hover{
+    background-color: #243651;
+    color:white;
+}
+
+#numb{
+    margin-bottom: 2px;
+}
+/*Formatting for carousel captions. Increase font size and move slightly to left*/
+div.carousel-caption {
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    left: 10%;
+}
+
+div.carousel-caption h3{
+    font-size: 48px;
+    color: #faf9f9;
+}
+
+div.carousel-caption p{
+    font-size: 24px;
+    color: #faf9f9;
+}
+
+/*Formatting for member testimonials. Make images round*/
+div.media{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Formatting to add background and font color to footer*/
+footer.container-fluid {
+    background-color: #243651;
+    color: #faf9f9;
+}
+
+@media screen and (max-width: 600px) {
+    .background-image {
+        max-width: 100%;
+    }
+    p {
+        font-size: 16px;
+    }
+    div.carousel-caption h3 {
+        font-size:18px;
+    }
+    div.carousel-caption p {
+        font-size: 12px;
+        padding: 0px;
+        margin:0px;
+    }
+    h4.media-heading {
+        font-size:18px;
+    }
+    img.img-circle {
+        max-width: 120px;
+    }
+}
