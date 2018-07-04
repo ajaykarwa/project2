@@ -39,6 +39,7 @@ body, html {
     bottom: 30%;
     left: 10%;
     font-weight: bold;
+    margin-right:2px;
 }
 
 .jumbotron-text h1{
@@ -132,7 +133,7 @@ footer.container-fluid {
     background-color: #243651;
     color: #faf9f9;
 }
-
+/*Custom formatting for smaller screen sizes*/
 @media screen and (max-width: 600px) {
     .background-image {
         max-width: 100%;
@@ -144,7 +145,7 @@ footer.container-fluid {
         font-size:18px;
     }
     div.carousel-caption p {
-        font-size: 12px;
+        font-size: 14px;
         padding: 0px;
         margin:0px;
     }
